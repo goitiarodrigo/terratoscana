@@ -1,6 +1,6 @@
 import Loader from "@/components/common/Loader"
 import { Suspense } from "react"
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { routes } from "./routes"
 import PublicRoutes from "./PublicRoutes"
 

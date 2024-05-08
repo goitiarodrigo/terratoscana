@@ -1,10 +1,7 @@
 import SquareFootIcon from '@mui/icons-material/SquareFoot';
 
-interface IProps {
-    data: any
-}
 
-const OnSaleCard = ({ data }: IProps) => {
+const OnSaleCard = () => {
     return (
         <div className='flex flex-col justify-between w-[20rem] h-[27rem] shadow-lg mb-10'>
             <div style={{
