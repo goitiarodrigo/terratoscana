@@ -17,8 +17,8 @@ const LazyTeam = lazy(() => import(/*webpackChunkName: "LazyTeam"*/"../pages/Tea
 
 export const routes: IRoutes[] = [
     {
-        to: '/home',
-        path:'/home',
+        to: '/',
+        path:'/',
         Component: LazyHome,
         name:'Inicio',
         private: false,

@@ -1,6 +1,6 @@
 import Loader from "@/components/common/Loader"
 import { Suspense } from "react"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
 import { routes } from "./routes"
 import PublicRoutes from "./PublicRoutes"
 
@@ -22,7 +22,7 @@ const Navigation = () => {
                                     )
                                 )
                             }
-                            {/* <Route path="/*" element={<Navigate to="/home" replace />} /> */}
+                            <Route path="/*" element={<Navigate to="/" replace />} />
                         </Route>
                     </Routes>
                 </>
